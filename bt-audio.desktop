@@ -1,0 +1,27 @@
+[Desktop Entry]
+
+Comment[en_US]=Bt-audio only Pipewire.
+
+Comment=Bt-audio only Pipewire.
+
+Exec=/opt/pipewire/pipewire.sh
+
+GenericName[en_US]=Bt-only-Audio
+
+GenericName=Bt-only-Audio
+
+Icon=/opt/pipewire/icon.png
+
+Name[en_US]=Bt-only-Audio
+
+Name=Bt-only-Audio
+
+NoDisplay=false
+
+Categories=Network
+
+StartupNotify=true
+
+Terminal=false
+
+Type=Application

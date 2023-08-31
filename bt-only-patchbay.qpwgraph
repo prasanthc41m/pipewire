@@ -1,0 +1,30 @@
+<!DOCTYPE patchbay>
+<patchbay name="patchbay" version="0.4.1">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="WI-C200 [WI-C200]" port="WI-C200:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="Equalizer [ee_soe_equalizer]" port="Rockerz 425:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="Rockerz 425 [Rockerz 425]" port="Rockerz 425:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="Rockerz 425 [Rockerz 425]" port="Rockerz 425:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="Equalizer [ee_soe_equalizer]" port="Rockerz 425:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="WI-C200 [WI-C200]" port="WI-C200:playback_FR"/>
+  </item>
+ </items>
+</patchbay>
+

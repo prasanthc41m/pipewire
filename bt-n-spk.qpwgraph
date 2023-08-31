@@ -1,0 +1,50 @@
+<!DOCTYPE patchbay>
+<patchbay name="bt-n-spk" version="0.4.1">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="WI-C200 [WI-C200]" port="WI-C200:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="Family 17h/19h HD Audio Controller Analog Stereo" port="ALC257 Analog:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="Infinity FUZE PINT [Infinity FUZE PINT]" port="Infinity FUZE PINT:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="Family 17h/19h HD Audio Controller Analog Stereo" port="ALC257 Analog:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="Equalizer [ee_soe_equalizer]" port="Rockerz 425:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="Infinity FUZE PINT [Infinity FUZE PINT]" port="Infinity FUZE PINT:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="Infinity FUZE PINT" port="Infinity FUZE PINT:playback_MONO"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FR"/>
+   <input node="Infinity FUZE PINT" port="Infinity FUZE PINT:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="Infinity FUZE PINT" port="Infinity FUZE PINT:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="WI-C200 [WI-C200]" port="WI-C200:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Output Level Meter [ee_soe_output_level]" port="output_level:output_FL"/>
+   <input node="Equalizer [ee_soe_equalizer]" port="Rockerz 425:playback_FL"/>
+  </item>
+ </items>
+</patchbay>
+
